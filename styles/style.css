@@ -130,6 +130,10 @@
   gap: 10px;
 }
 
+.answer-one p:first-of-type {
+  padding-block-end: 10px;
+}
+
 .section-two {
   display: grid;
   gap: 20px;
@@ -308,6 +312,7 @@
   }
 
   .section-one {
+    display: grid;
     grid-template-columns: 33% 67%;
     gap: 20px;
     padding-inline-end: 20px;
