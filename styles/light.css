@@ -13,6 +13,7 @@
   --accent-color: #ff8dcb;
   --header-text-color: #353430;
   --main-text-color: #353430;
+  --button-color: #353430;
   --header-bg-image: url(../images/cover-image-light.png);
 }
 
@@ -30,6 +31,7 @@
     --accent-color: #ff8dcb;
     --header-text-color: #353430;
     --main-text-color: #353430;
+    --button-color: #353430;
     --header-bg-image: url(../images/cover-image-light.png);
   }
 
@@ -38,6 +40,9 @@
   }
 
   .header__theme-menu-button:hover {
+    border: 1px solid rgba(50, 49, 45, 0.4);
+  }
+  .theme-light .header__theme-menu-button:hover {
     border: 1px solid rgba(50, 49, 45, 0.4);
   }
 }
