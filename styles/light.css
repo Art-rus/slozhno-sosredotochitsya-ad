@@ -9,10 +9,10 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --title-color:#FFC2E6;
-  --accent-color:#FF8DCB;
-  --header-text-color:#353430;
-  --main-text-color:#353430;
+  --title-color: #ffc2e6;
+  --accent-color: #ff8dcb;
+  --header-text-color: #353430;
+  --main-text-color: #353430;
   --header-bg-image: url(../images/cover-image-light.png);
 }
 
@@ -21,16 +21,16 @@
 }
 
 .theme-light .header__theme-menu-button:hover {
-  border: 1px solid rgba(50, 49, 45, 0.40);
+  border: 1px solid rgba(50, 49, 45, 0.4);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-  --title-color:#FFC2E6;
-  --accent-color:#FF8DCB;
-  --header-text-color:#353430;
-  --main-text-color:#353430;
-  --header-bg-image: url(../images/cover-image-light.png);
+    --title-color: #ffc2e6;
+    --accent-color: #ff8dcb;
+    --header-text-color: #353430;
+    --main-text-color: #353430;
+    --header-bg-image: url(../images/cover-image-light.png);
   }
 
   .rec {
@@ -38,6 +38,6 @@
   }
 
   .header__theme-menu-button:hover {
-    border: 1px solid rgba(50, 49, 45, 0.40);
+    border: 1px solid rgba(50, 49, 45, 0.4);
   }
-}  
+}
