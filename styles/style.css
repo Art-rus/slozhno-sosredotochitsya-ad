@@ -330,6 +330,8 @@
     grid-template-columns: 33% 67%;
     gap: 20px;
     padding-inline-end: 20px;
+    padding-block-start: 60px;
+    margin: 0 20px;
   }
   .section-two {
     margin: 0 20px;
