@@ -135,8 +135,6 @@
 }
 
 .section-two {
-  display: grid;
-  gap: 20px;
   padding-block-start: 50px;
   margin: 0 10px;
   padding-inline-end: 0;
@@ -150,12 +148,12 @@
 }
 .title-second-section-main {
   min-inline-size: 355px;
+  padding-block-end: 20px;
 }
 .card-content {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  min-inline-size: 355px;
 }
 
 .section-three {
@@ -165,11 +163,14 @@
   margin: 0 10px;
   padding-block-end: 50px;
 }
-
+.card-three {
+  display: grid;
+  gap: 10px;
+}
 .answer-three {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .title-of-section {
@@ -302,6 +303,7 @@
   }
 
   .logo {
+    margin-left: -10px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
@@ -317,7 +319,9 @@
     gap: 20px;
     padding-inline-end: 20px;
   }
-
+  .section-two {
+    margin-left: 20px;
+  }
   .answer-two {
     display: flex;
     flex-direction: column;
@@ -427,15 +431,11 @@
   }
   .title-second-section-main {
     max-inline-size: 315px;
-  }
-  .title-second-section {
-    margin-block-end: 10px;
+    padding-block-end: 0px;
   }
   .answer-two {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    padding-block-start: 20px;
   }
   .section-three {
     display: grid;
@@ -446,9 +446,7 @@
   .answer-three {
     display: grid;
     gap: 20px;
-  }
-  .section-three-para {
-    padding-block-start: 10px;
+    margin-right: 20px;
   }
   .section-four {
     padding-block-end: 60px;
